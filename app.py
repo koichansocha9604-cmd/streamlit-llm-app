@@ -16,9 +16,9 @@ llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.7, api_key=api_key)
 # Streamlitアプリ
 st.title("専門家に質問しよう！")
 
-st.write("#####歴史上の人物について質問しよう！#####")
+st.write("#####歴史上の人物について質問しよう！")
 st.write("例：『織田信長はどのような人物ですか？』")
-st.write("#####都道府県について質問しよう！#####")
+st.write("#####都道府県について質問しよう！")
 st.write("例：『北海道の有名な観光地はどこですか？』")
 
 
